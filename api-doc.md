@@ -68,3 +68,129 @@ common-params
     "errormsg": "",
     "data": []
 	}
+
+
+## /redpacket/current
+
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- |---------|:---------:| ---------:|---------|
+|      | |  |  ||
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "system_time": 1503320917,
+        "conf": [
+            {
+                "title": "9-clock",
+                "onlineTime": "1503277200",
+                "onlineDate": "1503244800",
+                "status": "1"
+            },
+            {
+                "title": "12-clock",
+                "onlineTime": "1503288000",
+                "onlineDate": "1503244800",
+                "status": "1"
+            },
+            {
+                "title": "15-clock",
+                "onlineTime": "1503298800",
+                "onlineDate": "1503244800",
+                "status": "1"
+            },
+            {
+                "title": "21-clock",
+                "onlineTime": "1503320400",
+                "onlineDate": "1503244800",
+                "status": "1"
+            }
+        ]
+    }
+	}
+	
+
+## /redpacket/fight
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| redpacket_id     |红包ID | int | 是 ||
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "fightresult": {
+            "result": "success",
+            "data": {
+                "redpacketconfID": "1",
+                "userID": "277",
+                "amount": "1"
+            }
+        }
+    }
+	}
+
+
+## /redpacket/record
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| redpacket_id     |红包ID | int | 是 ||
+| offset     |翻页 | int | 是 |0|
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "recordlist": [
+            {
+                "redpacketconfID": "1",
+                "userID": "277",
+                "amount": "1",
+                "addTime": "0"
+            },
+            {
+                "redpacketconfID": "1",
+                "userID": "1",
+                "amount": "1",
+                "addTime": "0"
+            },
+            {
+                "redpacketconfID": "1",
+                "userID": "2",
+                "amount": "1",
+                "addTime": "0"
+            },
+            {
+                "redpacketconfID": "1",
+                "userID": "3",
+                "amount": "3",
+                "addTime": "0"
+            }
+        ],
+        "userdata": {
+            "redpacketconfID": "1",
+            "userID": "277",
+            "amount": "1"
+        }
+    }
+	}
+	
+	
+## /redpacket/maxrecord
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| redpacket_id     |红包ID | int | 是 ||
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "userID": "3",
+        "amount": "3"
+    }
+	}
