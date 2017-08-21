@@ -8,12 +8,12 @@ common-params
 
 ## /user/login
 
-| 参数名称        |说明| 类型           | 是否必填  |默认值
-| ------------- ||:-------------:| -----:|
-| phone     |手机 | string | 是 |
-| authcode  |验证码| string |   是 |
-| channel |渠道|int|否 |
-| register_ip |ip|string|否 |
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| ------------- ||:-------------:| -----:||
+| phone     |手机 | string | 是 ||
+| authcode  |验证码| string |   是 ||
+| channel |渠道|int|否 ||
+| register_ip |ip|string|否 ||
 	
 	{
     "errorno": 0,
@@ -27,9 +27,9 @@ common-params
 
 ## /user/getinfo
 
-| 参数名称        |说明| 类型           | 是否必填  |默认值
-| ------------- ||:-------------:| -----:|
-| token     |token | string | 是 |
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| ------------- ||:-------------:| -----:||
+| token     |token | string | 是 ||
 
 
 	{
@@ -59,9 +59,9 @@ common-params
 
 ## /user/sendauthcode
 
-| 参数名称        |说明| 类型           | 是否必填  |默认值
-| ------------- ||:-------------:| -----:|
-| phone     |手机 | string | 是 |
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| ------------- ||:-------------:| -----:||
+| phone     |手机 | string | 是 ||
 
 	{
     "errorno": 0,
