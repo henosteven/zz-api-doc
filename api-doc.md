@@ -84,9 +84,9 @@ common-params
         "conf": [
             {
                 "title": "9-clock",
-                "onlineTime": "1503277200",
-                "onlineDate": "1503244800",
-                "status": "1"
+                "onlineTime": "1503277200", //开抢时刻
+                "onlineDate": "1503244800", //红包归属日期
+                "status": "1" //1 -  normal   3  抢完
             },
             {
                 "title": "12-clock",
