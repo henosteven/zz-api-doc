@@ -206,3 +206,22 @@ common-params
          }
     }
 	}
+	
+	
+## /redpacket/redpacketstat
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| redpacket_id     |红包ID | int | 是 ||
+	
+	
+	{
+	 "errorno": 0,
+	 "errormsg": "",
+	"data": {
+    "totalCount": "4", //红包总数
+    "isDone": 1, //1 表示已经抢完   0 表示没有
+    "timecount": 1, // 抢完了有分钟显示 1分钟
+    "doneCount": "4" //红包已抢个数
+    }
+	}
