@@ -313,7 +313,9 @@ common-params
 	"errormsg": "",
 	"data": {
 		"status": "success",
-    	"glodamount": 10
+    	"glodamount": 10,
+    	"isBigLucky" : 0,  1表示是天降鸿运  0表示不是
+    	"memo":""  备注,天降鸿运的备注
     	}
 	}
 
