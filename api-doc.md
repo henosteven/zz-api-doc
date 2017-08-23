@@ -188,6 +188,64 @@ common-params
     }
 	}
 	
+	
+	
+## /redpacket/record
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- 
+| offset     |起始值 | int | 是 |0|
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "redpacketconfID": "1",
+            "userID": "277",
+            "amount": "1",
+            "addTime": "0",
+            "userName": "",
+            "phone": "15210694268",
+            "avatar": "",
+            "bindwx": "0"
+        },
+        {
+            "redpacketconfID": "5",
+            "userID": "277",
+            "amount": "1",
+            "addTime": "0",
+            "userName": "",
+            "phone": "15210694268",
+            "avatar": "",
+            "bindwx": "0"
+        },
+        {
+            "redpacketconfID": "5",
+            "userID": "289",
+            "amount": "1",
+            "addTime": "0",
+            "userName": "",
+            "phone": "18911547532",
+            "avatar": "",
+            "bindwx": "0"
+        },
+        {
+            "redpacketconfID": "6",
+            "userID": "277",
+            "amount": "1",
+            "addTime": "0",
+            "userName": "",
+            "phone": "15210694268",
+            "avatar": "",
+            "bindwx": "0"
+        },
+    ]
+	}
+	
+	
+	
+	
 ## /redpacket/maxrecord
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | --------- | ---------|:---------:|---------:|--------- |
@@ -206,6 +264,8 @@ common-params
          }
     }
 	}
+
+
 	
 	
 ## /redpacket/redpacketstat
