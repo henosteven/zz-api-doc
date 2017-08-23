@@ -225,3 +225,78 @@ common-params
     "doneCount": "4" //红包已抢个数
     }
 	}
+	
+	
+	
+## /glod/setflag
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| product_id     |产品ID | int | 是 ||
+
+	{
+	"errorno": 0,
+	"errormsg": "",
+	"data": []
+	}
+	
+
+## /glod/catchglod
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| product_id     |产品ID | int | 是 ||
+
+
+	{
+	"errorno": 0,
+	"errormsg": "",
+	"data": {
+		"status": "success",
+    	"glodamount": 10
+    	}
+	}
+
+## /glod/glodinfo
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+
+
+	{
+	"errorno": 0,
+	"errormsg": "",
+	"data": {
+		"userID": "277",
+		"status": "1",
+    	"amount": "30"
+		}
+	}
+
+
+
+## /glod/glodrecord
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| offset     |起始值 | int | 是 ||
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "amount": "10",
+            "sourceType": "1",
+            "memo": "",
+            "addTime": "1503499383"
+        },
+        {
+            "amount": "10",
+            "sourceType": "1",
+            "memo": "",
+            "addTime": "1503498772"
+        }
+    ]
+	}
