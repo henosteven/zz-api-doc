@@ -39,7 +39,9 @@ common-params
         "userinfo": {
             "userID": "277",
             "userName": "",
-            "phone": "15210694268"
+            "phone": "15210694268",
+            "avatar": "",
+            "bindwx": "0"
         },
         "accountinfo": {
             "accountID": "278",
@@ -84,9 +86,9 @@ common-params
         "conf": [
             {
                 "title": "9-clock",
-                "onlineTime": "1503277200", //开抢时刻
-                "onlineDate": "1503244800", //红包归属日期
-                "status": "1" //1 -  normal   3  抢完
+                "onlineTime": "1503277200",
+                "onlineDate": "1503244800",
+                "status": "1"
             },
             {
                 "title": "12-clock",
@@ -175,10 +177,18 @@ common-params
             "redpacketconfID": "1",
             "userID": "277",
             "amount": "1"
+        },
+        "userinfo": {
+            "277": {
+                "userID": "277",
+                "userName": "",
+                "phone": "15210694268",
+                "avatar": "",
+                "bindwx": "0"
+            }
         }
     }
-	}
-	
+	}	
 	
 ## /redpacket/maxrecord
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
@@ -191,6 +201,10 @@ common-params
     "errormsg": "",
     "data": {
         "userID": "3",
-        "amount": "3"
+        "amount": "3",
+        "userData":{
+         	"avatar": "",
+         	"bindwx": "0"
+         }
     }
 	}
