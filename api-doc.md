@@ -82,36 +82,43 @@ common-params
     "errorno": 0,
     "errormsg": "",
     "data": {
-        "system_time": 1503320917,
+        "system_time": 1503472224,
         "conf": [
             {
+                "redpacketconfID": "9",
                 "title": "9-clock",
-                "onlineTime": "1503277200",
-                "onlineDate": "1503244800",
-                "status": "1"
+                "onlineTime": "1503450000",
+                "onlineDate": "1503417600",
+                "status": "1",
+                "userget": 0  //1表示抢到红包
             },
             {
+                "redpacketconfID": "10",
                 "title": "12-clock",
-                "onlineTime": "1503288000",
-                "onlineDate": "1503244800",
-                "status": "1"
+                "onlineTime": "1503460800",
+                "onlineDate": "1503417600",
+                "status": "1",
+                "userget": 0
             },
             {
+                "redpacketconfID": "11",
                 "title": "15-clock",
-                "onlineTime": "1503298800",
-                "onlineDate": "1503244800",
-                "status": "1"
+                "onlineTime": "1503471600",
+                "onlineDate": "1503417600",
+                "status": "1",
+                "userget": 0
             },
             {
-                "title": "21-clock",
-                "onlineTime": "1503320400",
-                "onlineDate": "1503244800",
-                "status": "1"
+                "redpacketconfID": "12",
+                "title": "19-clock",
+                "onlineTime": "1503486000",
+                "onlineDate": "1503417600",
+                "status": "1",
+                "userget": 0
             }
         ]
     }
-	}
-	
+	}	
 
 ## /redpacket/fight
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
@@ -149,46 +156,37 @@ common-params
     "data": {
         "recordlist": [
             {
-                "redpacketconfID": "1",
+                "redpacketconfID": "8",
+                "userID": "289",
+                "amount": "1",
+                "addTime": "0",
+                "userName": "",
+                "phone": "18911547532",
+                "avatar": "",
+                "bindwx": "0"
+            },
+            {
+                "redpacketconfID": "8",
                 "userID": "277",
                 "amount": "1",
-                "addTime": "0"
-            },
-            {
-                "redpacketconfID": "1",
-                "userID": "1",
-                "amount": "1",
-                "addTime": "0"
-            },
-            {
-                "redpacketconfID": "1",
-                "userID": "2",
-                "amount": "1",
-                "addTime": "0"
-            },
-            {
-                "redpacketconfID": "1",
-                "userID": "3",
-                "amount": "3",
-                "addTime": "0"
-            }
-        ],
-        "userdata": {
-            "redpacketconfID": "1",
-            "userID": "277",
-            "amount": "1"
-        },
-        "userinfo": {
-            "277": {
-                "userID": "277",
+                "addTime": "0",
                 "userName": "",
                 "phone": "15210694268",
                 "avatar": "",
                 "bindwx": "0"
             }
+        ],
+        "userdata": {
+            "redpacketconfID": "8",
+            "userID": "277",
+            "amount": "1",
+            "userName": "",
+            "phone": "15210694268",
+            "avatar": "",
+            "bindwx": "0"
         }
     }
-	}	
+	}
 	
 ## /redpacket/maxrecord
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
