@@ -190,7 +190,7 @@ common-params
 	
 	
 	
-## /redpacket/record
+## /redpacket/userredpacket
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | --------- | ---------|:---------:|---------:|--------- 
 | offset     |起始值 | int | 是 |0|
