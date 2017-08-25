@@ -362,3 +362,65 @@ common-params
         }
     ]
 	}
+	
+	
+	
+## /useraccount/withdrawlist
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| offset     |起始值 | int | 是 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "widthdrawID": "330",
+            "accountID": "278",
+            "amount": "1",
+            "status": "1",
+            "addTime": "1503639650"
+        },
+        {
+            "widthdrawID": "329",
+            "accountID": "278",
+            "amount": "1",
+            "status": "1",
+            "addTime": "1503639649"
+        },
+        {
+            "widthdrawID": "328",
+            "accountID": "278",
+            "amount": "1",
+            "status": "0",
+            "addTime": "1503639276"
+        },
+        {
+            "widthdrawID": "327",
+            "accountID": "278",
+            "amount": "1",
+            "status": "0",
+            "addTime": "1503639174"
+        }
+    ]
+	}
+	
+## /useraccount/withdraw
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| amount     |金额 | int | 是 ||
+
+	{
+    "errorno": 0,
+    "errormsg": "",   失败返回no-money
+    "data": []
+    }
+    
+    
+## /useraccount/transaction
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| offset     |起始值 | int | 是 ||
