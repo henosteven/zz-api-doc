@@ -424,3 +424,20 @@ common-params
 | --------- | ---------|:---------:|---------:|--------- |
 | token     |token | string | 是 ||
 | offset     |起始值 | int | 是 ||
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "transactionID": "331",
+            "accountID": "278",
+            "amount": "1",
+            "transactionType": "1",
+            "summaryID": "1",
+            "memo": "红包收入",
+            "addTime": "1503641890"
+        }
+    ]
+	}
