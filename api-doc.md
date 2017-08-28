@@ -441,3 +441,15 @@ common-params
         }
     ]
 	}
+	
+## /config/biglucky
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "imgpath": "abc",
+        "desc": ""
+    }
+	}
