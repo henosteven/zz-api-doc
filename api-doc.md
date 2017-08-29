@@ -453,3 +453,18 @@ common-params
         "desc": ""
     }
 	}
+	
+
+## /user/setthriddata
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| thrid_data     |数据 | string（json） | 是 ||
+| thrid     |数据标记(wx,tb) | string | 是 ||
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": []
+	}
