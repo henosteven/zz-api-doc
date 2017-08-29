@@ -469,6 +469,20 @@ common-params
     "data": []
 	}
 	
+## /product/addhistory
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| product_id|产品ID | int | 是 ||
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": []
+	}
+
+	
 ## /product/productlist
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | --------- | ---------|:---------:|---------:|--------- |
