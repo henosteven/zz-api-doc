@@ -453,6 +453,18 @@ common-params
         "desc": ""
     }
 	}
+
+## /config/glodext
+
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "glod": 340,
+        "money": 20
+    }
+	}
 	
 
 ## /user/setthriddata
