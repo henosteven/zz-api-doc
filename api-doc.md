@@ -603,3 +603,235 @@ common-params
         }
     ]
 	}
+	
+	
+## /user/adduserext
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+| area_id     |地区 | int | 是 ||
+| grand     |性别 | int | 是 |1男 2女 0保密|
+| birthday     |生日时间戳 | int | 是 ||
+
+	{
+    "errorno": 0,
+    "errormsg": "",   
+    "data": []
+    }
+    
+    
+## /user/areainfo
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| parent_id     |上级id默认0 | int | 是 ||
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "areaID": "11",
+            "name": "北京",
+            "parentid": "0",
+            "vieworder": "1"
+        },
+        {
+            "areaID": "31",
+            "name": "上海",
+            "parentid": "0",
+            "vieworder": "2"
+        },
+        {
+            "areaID": "44",
+            "name": "广东",
+            "parentid": "0",
+            "vieworder": "3"
+        },
+        {
+            "areaID": "34",
+            "name": "安徽",
+            "parentid": "0",
+            "vieworder": "4"
+        },
+        {
+            "areaID": "50",
+            "name": "重庆",
+            "parentid": "0",
+            "vieworder": "5"
+        },
+        {
+            "areaID": "35",
+            "name": "福建",
+            "parentid": "0",
+            "vieworder": "6"
+        },
+        {
+            "areaID": "46",
+            "name": "海南",
+            "parentid": "0",
+            "vieworder": "7"
+        },
+        {
+            "areaID": "13",
+            "name": "河北",
+            "parentid": "0",
+            "vieworder": "8"
+        },
+        {
+            "areaID": "41",
+            "name": "河南",
+            "parentid": "0",
+            "vieworder": "9"
+        },
+        {
+            "areaID": "23",
+            "name": "黑龙江",
+            "parentid": "0",
+            "vieworder": "10"
+        },
+        {
+            "areaID": "42",
+            "name": "湖北",
+            "parentid": "0",
+            "vieworder": "11"
+        },
+        {
+            "areaID": "43",
+            "name": "湖南",
+            "parentid": "0",
+            "vieworder": "12"
+        },
+        {
+            "areaID": "62",
+            "name": "甘肃",
+            "parentid": "0",
+            "vieworder": "13"
+        },
+        {
+            "areaID": "45",
+            "name": "广西",
+            "parentid": "0",
+            "vieworder": "14"
+        },
+        {
+            "areaID": "52",
+            "name": "贵州",
+            "parentid": "0",
+            "vieworder": "15"
+        },
+        {
+            "areaID": "22",
+            "name": "吉林",
+            "parentid": "0",
+            "vieworder": "16"
+        },
+        {
+            "areaID": "36",
+            "name": "江西",
+            "parentid": "0",
+            "vieworder": "17"
+        },
+        {
+            "areaID": "32",
+            "name": "江苏",
+            "parentid": "0",
+            "vieworder": "18"
+        },
+        {
+            "areaID": "21",
+            "name": "辽宁",
+            "parentid": "0",
+            "vieworder": "19"
+        },
+        {
+            "areaID": "15",
+            "name": "内蒙古",
+            "parentid": "0",
+            "vieworder": "20"
+        },
+        {
+            "areaID": "64",
+            "name": "宁夏",
+            "parentid": "0",
+            "vieworder": "21"
+        },
+        {
+            "areaID": "63",
+            "name": "青海",
+            "parentid": "0",
+            "vieworder": "22"
+        },
+        {
+            "areaID": "37",
+            "name": "山东",
+            "parentid": "0",
+            "vieworder": "23"
+        },
+        {
+            "areaID": "14",
+            "name": "山西",
+            "parentid": "0",
+            "vieworder": "24"
+        },
+        {
+            "areaID": "61",
+            "name": "陕西",
+            "parentid": "0",
+            "vieworder": "25"
+        },
+        {
+            "areaID": "51",
+            "name": "四川",
+            "parentid": "0",
+            "vieworder": "26"
+        },
+        {
+            "areaID": "12",
+            "name": "天津",
+            "parentid": "0",
+            "vieworder": "27"
+        },
+        {
+            "areaID": "54",
+            "name": "西藏",
+            "parentid": "0",
+            "vieworder": "28"
+        },
+        {
+            "areaID": "65",
+            "name": "新疆",
+            "parentid": "0",
+            "vieworder": "29"
+        },
+        {
+            "areaID": "53",
+            "name": "云南",
+            "parentid": "0",
+            "vieworder": "30"
+        },
+        {
+            "areaID": "33",
+            "name": "浙江",
+            "parentid": "0",
+            "vieworder": "31"
+        },
+        {
+            "areaID": "71",
+            "name": "台湾",
+            "parentid": "0",
+            "vieworder": "32"
+        },
+        {
+            "areaID": "81",
+            "name": "香港",
+            "parentid": "0",
+            "vieworder": "33"
+        },
+        {
+            "areaID": "82",
+            "name": "澳门",
+            "parentid": "0",
+            "vieworder": "34"
+        }
+     ]
+ }
