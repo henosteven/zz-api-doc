@@ -834,4 +834,52 @@ common-params
             "vieworder": "34"
         }
      ]
- }
+ 	}
+ 
+   
+## /actredpacketrecomm/getinfo
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token | string | 是 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "actredpacketID": "922",
+            "userID": "87",
+            "totalAmount": "20",
+            "totalCount": "3",
+            "leftCount": "3"
+        },
+        {
+            "actredpacketID": "926",
+            "userID": "87",
+            "totalAmount": "25",
+            "totalCount": "4",
+            "leftCount": "4"
+        },
+        {
+            "actredpacketID": "931",
+            "userID": "87",
+            "totalAmount": "35",
+            "totalCount": "5",
+            "leftCount": "5"
+        },
+        {
+            "actredpacketID": "937",
+            "userID": "87",
+            "totalAmount": "40",
+            "totalCount": "6",
+            "leftCount": "6"
+        },
+        {
+            "actredpacketID": "944",
+            "userID": "87",
+            "totalAmount": "68",
+            "totalCount": "9",
+            "leftCount": "9"
+        }
+    ]
+	}
