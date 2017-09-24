@@ -638,7 +638,7 @@ common-params
             "zk_final_price": "21.90"
         },
         "luckydata": {
-            "type": 1,
+            "type": 1,  //1 金币  2 红包
             "amount": 0
         }
     }
