@@ -604,6 +604,47 @@ common-params
     ]
 	}
 	
+
+## /product/productlistv2
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| category     |数据 | int | 是 ||
+| offset     |起始值  | int | 是 ||	
+| token     |token  | string | 是 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "productlist": {
+            "item_url": "http://item.taobao.com/item.htm?id=555811282418",
+            "nick": "魔袖旗舰店",
+            "num_iid": "555811282418",
+            "pict_url": "http://img4.tbcdn.cn/tfscom/i1/TB1eE_5SpXXXXXRaXXXXXXXXXXX_!!0-item_pic.jpg",
+            "provcity": "江苏 苏州",
+            "reserve_price": "98.00",
+            "seller_id": "3010208181",
+            "small_images": {
+                "string": [
+                    "http://img2.tbcdn.cn/tfscom/i4/3010208181/TB2f6xiceZkyKJjSszgXXcpMpXa_!!3010208181.jpg",
+                    "http://img1.tbcdn.cn/tfscom/i1/3010208181/TB2Z7BGcj7jyKJjy1XaXXblnFXa_!!3010208181.jpg",
+                    "http://img2.tbcdn.cn/tfscom/i4/3010208181/TB2FNZIdQonyKJjSZFtXXXNaVXa_!!3010208181.jpg",
+                    "http://img4.tbcdn.cn/tfscom/i1/3010208181/TB2k4cXa77myKJjSZFzXXXgDpXa_!!3010208181.png"
+                ]
+            },
+            "title": "高领套头毛衣女装秋冬新款韩版宽松原宿加厚百搭打底针织衫潮外套",
+            "user_type": "1",
+            "volume": "19531",
+            "zk_final_price": "21.90"
+        },
+        "luckydata": {
+            "type": 1,
+            "amount": 0
+        }
+    }
+	}	
+
+	
 ## /product/search
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | --------- | ---------|:---------:|---------:|--------- |
