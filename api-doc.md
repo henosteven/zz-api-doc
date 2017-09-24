@@ -604,6 +604,81 @@ common-params
     ]
 	}
 	
+## /product/search
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| keyword     |数据 | string | 否 ||
+| offset     |起始值  | int | 否 ||	
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "item_url": "http://item.taobao.com/item.htm?id=552216589108",
+            "nick": "u670du88c5u6279u53d1u5546",
+            "num_iid": "552216589108",
+            "pict_url": "http://img2.tbcdn.cn/tfscom/i4/TB1cHOCQVXXXXbYXpXXXXXXXXXX_!!0-item_pic.jpg",
+            "provcity": "u6d59u6c5f u676du5dde",
+            "reserve_price": "220.50",
+            "seller_id": "23419634",
+            "small_images": {
+                "string": [
+                    "http://img1.tbcdn.cn/tfscom/i1/28689/TB2AlYQnmFjpuFjSszhXXaBuVXa_!!28689.jpg",
+                    "http://img2.tbcdn.cn/tfscom/i4/28689/TB2Fm.lpHlmpuFjSZFlXXbdQXXa_!!28689.jpg",
+                    "http://img4.tbcdn.cn/tfscom/i2/28689/TB2tmQjpNxmpuFjSZFNXXXrRXXa_!!28689.jpg",
+                    "http://img1.tbcdn.cn/tfscom/i2/28689/TB2I7fqngJlpuFjSspjXXcT.pXa_!!28689.jpg"
+                ]
+            },
+            "title": "X41717u5b57u6bcdu523au7ee3u5916u5957 u957fu8896u8584u9632u6652u670du6237u5916u8fd0u52a8u9632u6652u8863u65b0BESTBAOu6b63u5973u88c5",
+            "user_type": "0",
+            "volume": "0",
+            "zk_final_price": "220.50"
+        },
+        {
+            "item_url": "http://item.taobao.com/item.htm?id=552216589108",
+            "nick": "u670du88c5u6279u53d1u5546",
+            "num_iid": "552216589108",
+            "pict_url": "http://img2.tbcdn.cn/tfscom/i4/TB1cHOCQVXXXXbYXpXXXXXXXXXX_!!0-item_pic.jpg",
+            "provcity": "u6d59u6c5f u676du5dde",
+            "reserve_price": "220.50",
+            "seller_id": "23419634",
+            "small_images": {
+                "string": [
+                    "http://img1.tbcdn.cn/tfscom/i1/28689/TB2AlYQnmFjpuFjSszhXXaBuVXa_!!28689.jpg",
+                    "http://img2.tbcdn.cn/tfscom/i4/28689/TB2Fm.lpHlmpuFjSZFlXXbdQXXa_!!28689.jpg",
+                    "http://img4.tbcdn.cn/tfscom/i2/28689/TB2tmQjpNxmpuFjSZFNXXXrRXXa_!!28689.jpg",
+                    "http://img1.tbcdn.cn/tfscom/i2/28689/TB2I7fqngJlpuFjSspjXXcT.pXa_!!28689.jpg"
+                ]
+            },
+            "title": "X41717u5b57u6bcdu523au7ee3u5916u5957 u957fu8896u8584u9632u6652u670du6237u5916u8fd0u52a8u9632u6652u8863u65b0BESTBAOu6b63u5973u88c5",
+            "user_type": "0",
+            "volume": "0",
+            "zk_final_price": "220.50"
+        },
+        {
+            "item_url": "http://item.taobao.com/item.htm?id=552216589108",
+            "nick": "u670du88c5u6279u53d1u5546",
+            "num_iid": "552216589108",
+            "pict_url": "http://img2.tbcdn.cn/tfscom/i4/TB1cHOCQVXXXXbYXpXXXXXXXXXX_!!0-item_pic.jpg",
+            "provcity": "u6d59u6c5f u676du5dde",
+            "reserve_price": "220.50",
+            "seller_id": "23419634",
+            "small_images": {
+                "string": [
+                    "http://img1.tbcdn.cn/tfscom/i1/28689/TB2AlYQnmFjpuFjSszhXXaBuVXa_!!28689.jpg",
+                    "http://img2.tbcdn.cn/tfscom/i4/28689/TB2Fm.lpHlmpuFjSZFlXXbdQXXa_!!28689.jpg",
+                    "http://img4.tbcdn.cn/tfscom/i2/28689/TB2tmQjpNxmpuFjSZFNXXXrRXXa_!!28689.jpg",
+                    "http://img1.tbcdn.cn/tfscom/i2/28689/TB2I7fqngJlpuFjSspjXXcT.pXa_!!28689.jpg"
+                ]
+            },
+            "title": "X41717u5b57u6bcdu523au7ee3u5916u5957 u957fu8896u8584u9632u6652u670du6237u5916u8fd0u52a8u9632u6652u8863u65b0BESTBAOu6b63u5973u88c5",
+            "user_type": "0",
+            "volume": "0",
+            "zk_final_price": "220.50"
+        }
+    ]
+	}
 	
 ## /user/adduserext
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
