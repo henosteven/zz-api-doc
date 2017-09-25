@@ -1230,5 +1230,34 @@ common-params
             "addTime": 123
         }
     ]
- }
+	}
+ 	
+
+## /orderreward/recommendstat
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token  | string | 是 ||
+| offset     |起始值  | int | 否 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "userID": 1,
+            "username": "测试",
+            "phone": "15210694268",
+            "avatar": "http://xxx",
+            "paied": {
+                "1": 100,
+                "2": 200
+            },
+            "notpay": {
+                "1": 105,
+                "2": 205
+            }
+        }
+    ]
+	}
+ 	
 	
