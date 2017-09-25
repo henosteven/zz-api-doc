@@ -616,33 +616,224 @@ common-params
     "errorno": 0,
     "errormsg": "",
     "data": {
-        "productlist": {
-            "item_url": "http://item.taobao.com/item.htm?id=555811282418",
-            "nick": "魔袖旗舰店",
-            "num_iid": "555811282418",
-            "pict_url": "http://img4.tbcdn.cn/tfscom/i1/TB1eE_5SpXXXXXRaXXXXXXXXXXX_!!0-item_pic.jpg",
-            "provcity": "江苏 苏州",
-            "reserve_price": "98.00",
-            "seller_id": "3010208181",
-            "small_images": {
-                "string": [
-                    "http://img2.tbcdn.cn/tfscom/i4/3010208181/TB2f6xiceZkyKJjSszgXXcpMpXa_!!3010208181.jpg",
-                    "http://img1.tbcdn.cn/tfscom/i1/3010208181/TB2Z7BGcj7jyKJjy1XaXXblnFXa_!!3010208181.jpg",
-                    "http://img2.tbcdn.cn/tfscom/i4/3010208181/TB2FNZIdQonyKJjSZFtXXXNaVXa_!!3010208181.jpg",
-                    "http://img4.tbcdn.cn/tfscom/i1/3010208181/TB2k4cXa77myKJjSZFzXXXgDpXa_!!3010208181.png"
-                ]
+        "productlist": [
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=552605162354",
+                "nick": "娜诗恋旗舰店",
+                "num_iid": "552605162354",
+                "pict_url": "http://img1.tbcdn.cn/tfscom/i3/TB1w_.YRpXXXXcpaFXXXXXXXXXX_!!0-item_pic.jpg",
+                "provcity": "广东 广州",
+                "reserve_price": "198.00",
+                "seller_id": "2937316768",
+                "small_images": {
+                    "string": [
+                        "http://img2.tbcdn.cn/tfscom/i3/2937316768/TB27g5acwoQMeJjy0FoXXcShVXa_!!2937316768.jpg",
+                        "http://img1.tbcdn.cn/tfscom/i1/2937316768/TB24HI5rY0kpuFjy0FjXXcBbVXa_!!2937316768.jpg",
+                        "http://img2.tbcdn.cn/tfscom/i3/2937316768/TB2vxCJvJRopuFjSZFtXXcanpXa_!!2937316768.jpg",
+                        "http://img3.tbcdn.cn/tfscom/i4/2937316768/TB2ywCwvJ0opuFjSZFxXXaDNVXa_!!2937316768.jpg"
+                    ]
+                },
+                "title": "短裤女夏2017新款气质高腰韩版宽松显瘦学生热裤潮破洞白色牛仔裤",
+                "user_type": "1",
+                "volume": "27709",
+                "zk_final_price": "29.00"
             },
-            "title": "高领套头毛衣女装秋冬新款韩版宽松原宿加厚百搭打底针织衫潮外套",
-            "user_type": "1",
-            "volume": "19531",
-            "zk_final_price": "21.90"
-        },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=541843655780",
+                "nick": "金晓晓52099",
+                "num_iid": "541843655780",
+                "pict_url": "http://img2.tbcdn.cn/tfscom/i4/1960542000/TB2FuFXkY8kpuFjy0FcXXaUhpXa_!!1960542000.jpg",
+                "provcity": "河北 保定",
+                "reserve_price": "128.00",
+                "seller_id": "1960542000",
+                "small_images": {
+                    "string": [
+                        "http://img2.tbcdn.cn/tfscom/i2/1960542000/TB2GbE7bhqK.eBjSZJiXXaOSFXa_!!1960542000.jpg",
+                        "http://img1.tbcdn.cn/tfscom/i4/1960542000/TB2DL3TblyN.eBjSZFIXXXbUVXa_!!1960542000.jpg",
+                        "http://img3.tbcdn.cn/tfscom/i4/1960542000/TB2m8A9kSFjpuFjSspbXXXagVXa_!!1960542000.jpg",
+                        "http://img1.tbcdn.cn/tfscom/i1/1960542000/TB2Wq7SkR4lpuFjy1zjXXcAKpXa_!!1960542000.jpg"
+                    ]
+                },
+                "title": "韩版帆布双肩包女学生休闲百搭书包校园小清新初中生可爱开学背包",
+                "user_type": "0",
+                "volume": "27330",
+                "zk_final_price": "48.00"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=19073181848",
+                "nick": "游乐者旗舰店",
+                "num_iid": "19073181848",
+                "pict_url": "http://img4.tbcdn.cn/tfscom/i1/TB1C3NfRXXXXXcKXFXXXXXXXXXX_!!0-item_pic.jpg",
+                "provcity": "浙江 杭州",
+                "reserve_price": "339.00",
+                "seller_id": "1726473375",
+                "small_images": {
+                    "string": [
+                        "http://img3.tbcdn.cn/tfscom/i2/1726473375/TB2y16jdItnpuFjSZFvXXbcTpXa_!!1726473375.jpg",
+                        "http://img4.tbcdn.cn/tfscom/i1/1726473375/TB20yWFbbxmpuFjSZJiXXXauVXa_!!1726473375.jpg",
+                        "http://img4.tbcdn.cn/tfscom/i3/1726473375/TB23MKFbmFmpuFjSZFrXXayOXXa_!!1726473375.jpg",
+                        "http://img3.tbcdn.cn/tfscom/i1/1726473375/TB2BZ1mkR8kpuFjSspeXXc7IpXa_!!1726473375.jpg"
+                    ]
+                },
+                "title": "游乐者拉杆箱行李箱万向轮旅行箱男女密码箱登机箱20寸24寸28潮",
+                "user_type": "1",
+                "volume": "26774",
+                "zk_final_price": "76.00"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=553618355465",
+                "nick": "爱恋上草莓的味道",
+                "num_iid": "553618355465",
+                "pict_url": "http://img2.tbcdn.cn/tfscom/i2/1027546731/TB2jh7axHBmpuFjSZFuXXaG_XXa_!!1027546731.jpg",
+                "provcity": "浙江 杭州",
+                "reserve_price": "85.00",
+                "seller_id": "1027546731",
+                "small_images": {
+                    "string": [
+                        "http://img2.tbcdn.cn/tfscom/i2/1027546731/TB2q5fZxNhmpuFjSZFyXXcLdFXa_!!1027546731.jpg",
+                        "http://img2.tbcdn.cn/tfscom/i4/1027546731/TB2xlqaecPRfKJjSZFOXXbKEVXa_!!1027546731.jpg",
+                        "http://img1.tbcdn.cn/tfscom/i1/1027546731/TB2MmbVxOpnpuFjSZFkXXc4ZpXa_!!1027546731.jpg",
+                        "http://img2.tbcdn.cn/tfscom/i4/1027546731/TB2ejz5c_AKh1JjSZFDXXbKlFXa_!!1027546731.jpg"
+                    ]
+                },
+                "title": "2017春夏季小白鞋帆布鞋女学生韩版原宿ulzzang平底布鞋百搭板鞋",
+                "user_type": "0",
+                "volume": "23593",
+                "zk_final_price": "21.90"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=546357276052",
+                "nick": "艾莉莎箱包",
+                "num_iid": "546357276052",
+                "pict_url": "http://img3.tbcdn.cn/tfscom/i4/725455405/TB2y7WobS_9F1JjSZFhXXbadVXa_!!725455405.jpg",
+                "provcity": "浙江 嘉兴",
+                "reserve_price": "319.00",
+                "seller_id": "725455405",
+                "small_images": {
+                    "string": [
+                        "http://img2.tbcdn.cn/tfscom/i1/725455405/TB22W6ZirBmpuFjSZFAXXaQ0pXa_!!725455405.jpg",
+                        "http://img1.tbcdn.cn/tfscom/i4/725455405/TB2_nt2ha8lpuFjy0FpXXaGrpXa_!!725455405.jpg",
+                        "http://img3.tbcdn.cn/tfscom/i4/725455405/TB20onOiypnpuFjSZFkXXc4ZpXa_!!725455405.jpg",
+                        "http://img3.tbcdn.cn/tfscom/i3/725455405/TB2jyYFitFopuFjSZFHXXbSlXXa_!!725455405.jpg"
+                    ]
+                },
+                "title": "铝框拉杆箱密码行李箱男女旅行箱万向轮20皮箱子24韩版26学生28寸",
+                "user_type": "0",
+                "volume": "23283",
+                "zk_final_price": "139.00"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=37841313671",
+                "nick": "dgfynet",
+                "num_iid": "37841313671",
+                "pict_url": "http://img2.tbcdn.cn/tfscom/i3/TB1gqYoOFXXXXbSaXXXYXGcGpXX_M2.SS2",
+                "provcity": "广东 东莞",
+                "reserve_price": "50.00",
+                "seller_id": "355460794",
+                "small_images": {
+                    "string": [
+                        "http://img4.tbcdn.cn/tfscom/i4/355460794/TB2HK6.XYFlpuFjy0FgXXbRBVXa_!!355460794.jpg",
+                        "http://img4.tbcdn.cn/tfscom/i5/TB1chzHOFXXXXXaXVXXYXGcGpXX_M2.SS2",
+                        "http://img2.tbcdn.cn/tfscom/i8/TB1wwTcOFXXXXXsaFXXYXGcGpXX_M2.SS2",
+                        "http://img4.tbcdn.cn/tfscom/i4/TB13aG1QpXXXXcPXVXXYXGcGpXX_M2.SS2"
+                    ]
+                },
+                "title": "外搭宽松早秋女装新款2017针织衫开衫短款薄款春秋天毛衣长袖外套",
+                "user_type": "0",
+                "volume": "20910",
+                "zk_final_price": "29.00"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=42186460554",
+                "nick": "桃太郎旗舰店",
+                "num_iid": "42186460554",
+                "pict_url": "http://img3.tbcdn.cn/tfscom/i2/TB1LR0lLXXXXXaGXVXXXXXXXXXX_!!0-item_pic.jpg",
+                "provcity": "浙江 金华",
+                "reserve_price": "68.00",
+                "seller_id": "902777980",
+                "small_images": {
+                    "string": [
+                        "http://img3.tbcdn.cn/tfscom/i4/902777980/TB21FxZb9Y9F1JjSZFFXXaBKXXa_!!902777980.jpg",
+                        "http://img2.tbcdn.cn/tfscom/i1/902777980/TB2wci_ayGO.eBjSZFEXXcy9VXa_!!902777980.jpg",
+                        "http://img4.tbcdn.cn/tfscom/i3/902777980/TB2chKobeEJL1JjSZFGXXa6OXXa_!!902777980.jpg",
+                        "http://img1.tbcdn.cn/tfscom/i3/902777980/TB2bQXYaUifF1JjSspdXXclLpXa_!!902777980.jpg"
+                    ]
+                },
+                "title": "加绒仿皮打底裤加厚外穿长裤显瘦黑色小脚裤皮裤弹力大码女裤秋冬",
+                "user_type": "1",
+                "volume": "20259",
+                "zk_final_price": "6.90"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=554623954444",
+                "nick": "魅思莹旗舰店",
+                "num_iid": "554623954444",
+                "pict_url": "http://img2.tbcdn.cn/tfscom/i1/TB1MIpASXXXXXb6XpXXXXXXXXXX_!!0-item_pic.jpg",
+                "provcity": "江苏 苏州",
+                "reserve_price": "98.00",
+                "seller_id": "3204149102",
+                "small_images": {
+                    "string": [
+                        "http://img4.tbcdn.cn/tfscom/i3/3204149102/TB2qcaJtJhvOuFjSZFBXXcZgFXa_!!3204149102.jpg",
+                        "http://img2.tbcdn.cn/tfscom/i1/3204149102/TB2RK24zNxmpuFjSZFNXXXrRXXa_!!3204149102.jpg",
+                        "http://img4.tbcdn.cn/tfscom/i4/3204149102/TB2FH3nvCFjpuFjSszhXXaBuVXa_!!3204149102.jpg",
+                        "http://img3.tbcdn.cn/tfscom/i3/3204149102/TB25ULWzOpnpuFjSZFIXXXh2VXa_!!3204149102.jpg"
+                    ]
+                },
+                "title": "夏装新款V领针织小吊带镂空背心女 短款外穿无袖t恤女打底衫韩版",
+                "user_type": "1",
+                "volume": "20236",
+                "zk_final_price": "18.90"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=549310039411",
+                "nick": "影麦旗舰店",
+                "num_iid": "549310039411",
+                "pict_url": "http://img3.tbcdn.cn/tfscom/i2/TB1iOEJQFXXXXcOXFXXXXXXXXXX_!!0-item_pic.jpg",
+                "provcity": "浙江 杭州",
+                "reserve_price": "100.00",
+                "seller_id": "1891886484",
+                "small_images": {
+                    "string": [
+                        "http://img3.tbcdn.cn/tfscom/i3/1891886484/TB2k5XcphtmpuFjSZFqXXbHFpXa_!!1891886484.jpg",
+                        "http://img2.tbcdn.cn/tfscom/i2/1891886484/TB2kreKmHRkpuFjSspmXXc.9XXa_!!1891886484.jpg",
+                        "http://img4.tbcdn.cn/tfscom/i4/1891886484/TB2rFVYmSXlpuFjy0FeXXcJbFXa_!!1891886484.jpg",
+                        "http://img3.tbcdn.cn/tfscom/i4/1891886484/TB2GzbNeY_0UKFjy1XaXXbKfXXa_!!1891886484.jpg"
+                    ]
+                },
+                "title": "打底裤外穿薄款女裤子秋季2017新款韩版百搭九分夏季显瘦黑小脚裤",
+                "user_type": "1",
+                "volume": "19641",
+                "zk_final_price": "19.90"
+            },
+            {
+                "item_url": "http://item.taobao.com/item.htm?id=555811282418",
+                "nick": "魔袖旗舰店",
+                "num_iid": "555811282418",
+                "pict_url": "http://img4.tbcdn.cn/tfscom/i1/TB1eE_5SpXXXXXRaXXXXXXXXXXX_!!0-item_pic.jpg",
+                "provcity": "江苏 苏州",
+                "reserve_price": "98.00",
+                "seller_id": "3010208181",
+                "small_images": {
+                    "string": [
+                        "http://img2.tbcdn.cn/tfscom/i4/3010208181/TB2f6xiceZkyKJjSszgXXcpMpXa_!!3010208181.jpg",
+                        "http://img1.tbcdn.cn/tfscom/i1/3010208181/TB2Z7BGcj7jyKJjy1XaXXblnFXa_!!3010208181.jpg",
+                        "http://img2.tbcdn.cn/tfscom/i4/3010208181/TB2FNZIdQonyKJjSZFtXXXNaVXa_!!3010208181.jpg",
+                        "http://img4.tbcdn.cn/tfscom/i1/3010208181/TB2k4cXa77myKJjSZFzXXXgDpXa_!!3010208181.png"
+                    ]
+                },
+                "title": "高领套头毛衣女装秋冬新款韩版宽松原宿加厚百搭打底针织衫潮外套",
+                "user_type": "1",
+                "volume": "19531",
+                "zk_final_price": "21.90"
+            }
+        ],
         "luckydata": {
-            "type": 1,  //1 金币  2 红包
+            "type": 1,
             "amount": 0
         }
     }
-	}	
+	}
 
 	
 ## /product/search
@@ -999,3 +1190,35 @@ common-params
         }
     ]
 	}
+
+
+
+
+## /orderreward/reward
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| order_id     |订单 | string | 是 ||
+| token     |token  | string | 是 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "type": 1, //1 金币  2 红包
+        "amount": 100
+    }
+	}
+	
+## /orderreward/recordlist
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token  | string | 是 ||
+| offset     |起始值  | int | 否 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+            }
+	}
+	
