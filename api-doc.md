@@ -1234,6 +1234,10 @@ common-params
  	
 
 ## /orderreward/recommendstat
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token  | string | 是 ||
+| offset     |起始值  | int | 否 ||
 
 	{
     "errorno": 0,
@@ -1266,3 +1270,31 @@ common-params
         "banner": "http://xxx"
     }
 	}	
+	
+	
+## /useraccount/withdrawconf
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token  | string | 是 ||
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "amount": 3000, //提现金额
+            "enable": 0,  //0 不可用 1可用   
+            "recomcount": 10 //推荐人数
+        },
+        {
+            "amount": 5000,
+            "enable": 1,
+            "recomcount": 8
+        },
+        {
+            "amount": 10000,
+            "enable": 1,
+            "recomcount": 5
+        }
+    ]
+	}
