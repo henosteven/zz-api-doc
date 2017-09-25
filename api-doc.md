@@ -1234,11 +1234,7 @@ common-params
  	
 
 ## /orderreward/recommendstat
-| 参数名称        |说明| 类型           | 是否必填  |默认值|
-| --------- | ---------|:---------:|---------:|--------- |
-| token     |token  | string | 是 ||
-| offset     |起始值  | int | 否 ||
-	
+
 	{
     "errorno": 0,
     "errormsg": "",
@@ -1259,5 +1255,14 @@ common-params
         }
     ]
 	}
- 	
+
+
+## /orderreward/recommendstat
 	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "banner": "http://xxx"
+    }
+	}	
