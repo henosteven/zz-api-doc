@@ -1218,7 +1218,17 @@ common-params
 	{
     "errorno": 0,
     "errormsg": "",
-    "data": {
-            }
-	}
+    "data": [
+        {
+            "userID": 1,
+            "orderID": 123,
+            "rewardType": 1,
+            "amount": 100,
+            "status": 3,
+            "statusDesc": "已结算",
+            "payTime": 123,
+            "addTime": 123
+        }
+    ]
+ }
 	
