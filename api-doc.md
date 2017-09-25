@@ -1257,7 +1257,7 @@ common-params
 	}
 
 
-## /orderreward/recommendstat
+## /orderreward/banner
 	
 	{
     "errorno": 0,
