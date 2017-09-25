@@ -1224,7 +1224,7 @@ common-params
             "orderID": 123,
             "rewardType": 1,
             "amount": 100,
-            "status": 3,
+            "status": 2, //1待结算  2已结算  3 判定无效
             "statusDesc": "已结算",
             "payTime": 123,
             "addTime": 123
