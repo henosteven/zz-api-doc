@@ -6,7 +6,7 @@ common-params
 * ostype    int      | 1-ios 2-android
 * versioncode  int   | 系统版本
 
-## /growth/growthinfo
+## /growth/growthinfo 等级信息
 
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | ------------- |-------------|:-------------:| -------------:|-------------|
@@ -26,7 +26,7 @@ common-params
 
 
 
-## /growth/curentscoreinfo
+## /growth/curentscoreinfo 当前成长值
 
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | ------------- |-------------|:-------------:| -------------:|-------------|
@@ -41,7 +41,7 @@ common-params
 	}
 	
 	
-## /growth/scorerecord
+## /growth/scorerecord  成长值记录
 
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | ------------- |-------------|:-------------:| -------------:|-------------|
@@ -66,7 +66,7 @@ common-params
 	}
 
 
-## /growthreward/recordlist
+## /growthreward/recordlist 升保级奖励记录
 
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | ------------- |-------------|:-------------:| -------------:|-------------|
@@ -93,7 +93,7 @@ common-params
     ]
 	}
 	
-## /growthreward/catchreward
+## /growthreward/catchreward 领取升保级
 
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | ------------- |-------------|:-------------:| -------------:|-------------|
@@ -109,4 +109,80 @@ common-params
 	}
 	
 	
+## /orderreward/newstat  100%中奖统计
 
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| ------------- |-------------|:-------------:| -------------:|-------------|
+| token     |用户token | string | 是 ||	
+
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "totalamount": 233,  //已领取
+        "friendsupport": 456 //好友贡献
+    }
+}
+	
+
+## /orderreward/recordlistv2 100%用户收入列表
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| offset     |起始值  | int | 否 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "userID": 1,
+            "orderID": 123,
+            "rewardType": 1,
+            "amount": 100,
+            "status": 2, //1待结算  2已结算  3 判定无效
+            "statusDesc": "已结算",
+            "payTime": 123,
+            "addTime": 123
+        }
+    ]
+	}
+	
+## /orderreward/recommendrewardlist 100%好友收入列表
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token  | string | 是 ||
+| offset     |起始值  | int | 否 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "userID": 1,
+            "orderID": 123,
+            "rewardType": 1,
+            "amount": 100,
+            "status": 2, //1待结算  2已结算  3 判定无效
+            "statusDesc": "已结算",
+            "payTime": 123,
+            "addTime": 123
+        }
+    ]
+	}
+	
+	
+## /orderreward/recommstat 100% 好友统计
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token  | string | 是 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": {
+        "expectincome": 233,
+        "realincome": 456,
+        "recommendnum": 4
+    }
+	}
+	
