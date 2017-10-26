@@ -66,7 +66,7 @@ common-params
 	}
 
 
-## /growthreward/recordlist 升保级奖励记录
+## /growthreward/rewardlist 升保级奖励记录
 
 | 参数名称        |说明| 类型           | 是否必填  |默认值|
 | ------------- |-------------|:-------------:| -------------:|-------------|
@@ -142,7 +142,10 @@ common-params
             "status": 2, //1待结算  2已结算  3 判定无效
             "statusDesc": "已结算",
             "payTime": 123,
-            "addTime": 123
+            "addTime": 123,
+            "userName": "",
+            "phone": "18911547532",
+            "avatar": "",
         }
     ]
 	}
@@ -165,7 +168,10 @@ common-params
             "status": 2, //1待结算  2已结算  3 判定无效
             "statusDesc": "已结算",
             "payTime": 123,
-            "addTime": 123
+            "addTime": 123,
+            "userName": "",
+            "phone": "18911547532",
+            "avatar": "",
         }
     ]
 	}
