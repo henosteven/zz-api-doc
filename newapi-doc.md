@@ -83,6 +83,8 @@ common-params
             "hasCatch": 1,
             "userID": 1,
             "levelrewardID": 1,
+            'title':'酒店',
+           'typeDesc":'白金保级',
             "addTime": 1508857597,
             "catchTime": 1508857597,
             "leveldata": {
