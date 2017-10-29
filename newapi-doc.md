@@ -20,7 +20,10 @@ common-params
         "userID": 1,
         "cardNo": "123123",
         "levelID": 1,
-        "levelTitle": "白金"
+        "levelTitle": "白金",
+        "minScore": 1,
+        "maxScore": 10,
+        "curScore": 5
     }
 	}
 
@@ -223,3 +226,27 @@ common-params
         "title": 0
     }
  	}
+ 	
+## /orderreward/recordlistv2
+| 参数名称        |说明| 类型           | 是否必填  |默认值|
+| --------- | ---------|:---------:|---------:|--------- |
+| token     |token  | string | 是 ||
+| offset     |起始值  | int | 否 ||
+| status     |状态  | int | 否 ||
+	
+	{
+    "errorno": 0,
+    "errormsg": "",
+    "data": [
+        {
+            "userID": 1,
+            "orderID": 123,
+            "rewardType": 1,
+            "amount": 100,
+            "status": 2, //1待结算  2已结算  3 判定无效
+            "statusDesc": "已结算",
+            "payTime": 123,
+            "addTime": 123
+        }
+    ]
+	}
