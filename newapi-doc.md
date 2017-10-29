@@ -216,7 +216,7 @@ common-params
     "errorno": 0,
     "errormsg": "",
     "data": {
-        "0": "img",
+        "img": http://",
         "num_iid": 0,
         "price": 0,
         "coupon": 0,
